@@ -43,3 +43,6 @@ while l+1 < r:
     else: r = m
 
 print(l)
+
+# 答えで二分探索
+# https://github.com/E869120/kyopro_educational_90/blob/main/editorial/001.jpg
