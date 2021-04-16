@@ -31,7 +31,7 @@ def ok(m):
         now += d
         if now >= m:
             cnt += 1
-            if cnt == k+1: return True
+            if cnt == d+1: return True
             now = 0
     return False
 

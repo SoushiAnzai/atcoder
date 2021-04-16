@@ -19,4 +19,4 @@ cs = [sum(col) for col in zip(*a)]
 # *List リストの中身だけ一つずつ関数に渡す
 ans = [[rs[i]+cs[j]-a[i][j] for j in range(w)] for i in range(h)]
 
-for row un ans: print(*row)
+for row in ans: print(*row)

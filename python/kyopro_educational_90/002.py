@@ -7,10 +7,10 @@ def popcnt(bit):
 
 def solve(bit):
     # 0と1の個数が違ったらNG
-    if popcnt(bit) != n//2: return
+    if popcnt(bit) != N//2: return
     # 0を"("に1を")"に置き換え
     ans = ""
-    for _ in range(n):
+    for _ in range(N):
         if bit & 1: ans += ")"
         else: ans += "("
         bit >>= 1
@@ -25,8 +25,8 @@ def solve(bit):
         if now < 0:return
     print(ans)
 
-if n & 1: exit()
+if N & 1: exit()
 # AND:論理積(aもbも1のビットが1)
 
-for bit in range(1 << n):
+for bit in range(1 << N):
     solve(bit)

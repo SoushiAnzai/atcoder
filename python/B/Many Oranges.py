@@ -8,6 +8,6 @@ W = W*1000
 #     print("UNSATISFIABLE")
 # else:
 #     print(lower,upper)
-for i in range(1,1000000):
-    if (W-i*A)%B == 0 
+# for i in range(1,1000000):
+#     if (W-i*A)%B == 0 
 
